@@ -13,6 +13,12 @@
 		100CC6D81A607C07009D8A16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100CC6D71A607C07009D8A16 /* Images.xcassets */; };
 		100CC6DB1A607C07009D8A16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 100CC6D91A607C07009D8A16 /* LaunchScreen.xib */; };
 		100CC6E71A607C07009D8A16 /* CustomSeguesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100CC6E61A607C07009D8A16 /* CustomSeguesTests.swift */; };
+		100CC6F11A6085E4009D8A16 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100CC6F01A6085E4009D8A16 /* SecondViewController.swift */; };
+		100CC6F31A608611009D8A16 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100CC6F21A608611009D8A16 /* ThirdViewController.swift */; };
+		100CC6F51A6092D9009D8A16 /* FirstCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100CC6F41A6092D9009D8A16 /* FirstCustomSegue.swift */; };
+		100CC6F71A6092F9009D8A16 /* FirstCustomSegueUnwind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100CC6F61A6092F9009D8A16 /* FirstCustomSegueUnwind.swift */; };
+		100CC6F91A609316009D8A16 /* SecondCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100CC6F81A609316009D8A16 /* SecondCustomSegue.swift */; };
+		100CC6FB1A60932F009D8A16 /* SecondCustomSegueUnwind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100CC6FA1A60932F009D8A16 /* SecondCustomSegueUnwind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		100CC6E01A607C07009D8A16 /* CustomSeguesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSeguesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		100CC6E51A607C07009D8A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		100CC6E61A607C07009D8A16 /* CustomSeguesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSeguesTests.swift; sourceTree = "<group>"; };
+		100CC6F01A6085E4009D8A16 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
+		100CC6F21A608611009D8A16 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../ThirdViewController.swift; sourceTree = "<group>"; };
+		100CC6F41A6092D9009D8A16 /* FirstCustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstCustomSegue.swift; path = ../FirstCustomSegue.swift; sourceTree = "<group>"; };
+		100CC6F61A6092F9009D8A16 /* FirstCustomSegueUnwind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstCustomSegueUnwind.swift; path = ../FirstCustomSegueUnwind.swift; sourceTree = "<group>"; };
+		100CC6F81A609316009D8A16 /* SecondCustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondCustomSegue.swift; path = ../SecondCustomSegue.swift; sourceTree = "<group>"; };
+		100CC6FA1A60932F009D8A16 /* SecondCustomSegueUnwind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondCustomSegueUnwind.swift; path = ../SecondCustomSegueUnwind.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +90,13 @@
 			isa = PBXGroup;
 			children = (
 				100CC6D01A607C07009D8A16 /* AppDelegate.swift */,
+				100CC6FA1A60932F009D8A16 /* SecondCustomSegueUnwind.swift */,
+				100CC6F81A609316009D8A16 /* SecondCustomSegue.swift */,
+				100CC6F61A6092F9009D8A16 /* FirstCustomSegueUnwind.swift */,
+				100CC6F41A6092D9009D8A16 /* FirstCustomSegue.swift */,
 				100CC6D21A607C07009D8A16 /* ViewController.swift */,
+				100CC6F01A6085E4009D8A16 /* SecondViewController.swift */,
+				100CC6F21A608611009D8A16 /* ThirdViewController.swift */,
 				100CC6D41A607C07009D8A16 /* Main.storyboard */,
 				100CC6D71A607C07009D8A16 /* Images.xcassets */,
 				100CC6D91A607C07009D8A16 /* LaunchScreen.xib */,
@@ -212,8 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100CC6F11A6085E4009D8A16 /* SecondViewController.swift in Sources */,
 				100CC6D31A607C07009D8A16 /* ViewController.swift in Sources */,
+				100CC6F71A6092F9009D8A16 /* FirstCustomSegueUnwind.swift in Sources */,
+				100CC6F31A608611009D8A16 /* ThirdViewController.swift in Sources */,
 				100CC6D11A607C07009D8A16 /* AppDelegate.swift in Sources */,
+				100CC6FB1A60932F009D8A16 /* SecondCustomSegueUnwind.swift in Sources */,
+				100CC6F51A6092D9009D8A16 /* FirstCustomSegue.swift in Sources */,
+				100CC6F91A609316009D8A16 /* SecondCustomSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
